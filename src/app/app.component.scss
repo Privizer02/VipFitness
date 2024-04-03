@@ -1,8 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import "~@fortawesome/fontawesome-free/css/all.css";
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Questrial", sans-serif;
   font-weight: 400;
   font-style: normal;
+  text-decoration: none;
+}
+.body.active .wrapper .sidebar {
+  left: -225px;
 }
