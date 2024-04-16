@@ -59,7 +59,9 @@ body {
     .sidebar {
       ul {
         li {
-          a:hover::before,
+          a:hover::before {
+            display: block;
+          }
           a.active::before {
             display: block;
           }
@@ -68,10 +70,19 @@ body {
     }
   }
 }
+
 body.active {
   .wrapper {
     .sidebar {
       right: -525px;
+    }
+  }
+}
+body.active {
+  .wrapper {
+    .section {
+      margin-right: 0%;
+      width: 100%;
     }
   }
 }
