@@ -1,0 +1,36 @@
+<div class="form-seciton">
+  <h4>Customize your membership, access the services you want!</h4>
+  <form autocomplete="off" [formGroup]="form">
+    <input type="text" formControlName="name" placeholder="Full Name" />
+    <input type="number" formControlName="phone" placeholder="Phone" />
+    <input type="email" formControlName="email" placeholder="Email" />
+    <select formControlName="age">
+      <option value="" disabled selected hidden>Age</option>
+      <option value="1">Under 18</option>
+      <option value="2">18 - 25</option>
+      <option value="3">26 - 35</option>
+      <option value="4">36 - 45</option>
+      <option value="5">46-50</option>
+      <option value="6">50+</option>
+    </select>
+    <select formControlName="hear" id="">
+      <option value="" disabled selected hidden>
+        How did you hear about us?
+      </option>
+      <option value="1">Google/Internet search</option>
+      <option value="2">Facebook</option>
+      <option value="3">Instagram</option>
+      <option value="4">Linked in</option>
+      <option value="5">Other social medias</option>
+      <option value="6">Walk by</option>
+      <option value="7">Elevator ads</option>
+      <option value="8">Personal Referral</option>
+      <option value="9">Business Referral</option>
+      <option value="10">Publication(news/articles)</option>
+    </select>
+    <button (click)="onSubmit()">Submit</button>
+  </form>
+  <div class="message" *ngIf="message">
+    <span>Thank you for reaching out! We'll be in touch shortly.</span>
+  </div>
+</div>
