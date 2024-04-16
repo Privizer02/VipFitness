@@ -1,12 +1,4 @@
 <body class="main">
-  <!-- <script>
-    console.log("work");
-    var hamburger = document.querySelector(".hamburger");
-
-    hamburger.addEventListener("click", function () {
-      document.querySelector("body").classList.toggle("active");
-    });
-  </script> -->
   <div class="wrapper">
     <div class="sidebar">
       <ul>
@@ -38,8 +30,16 @@
     </div>
     <div class="section">
       <div class="top_navbar">
-        <div class="hamburger" (click)="sideBar()">
-          <a href="#"><i class="fas fa-bars"></i></a>
+        <div class="logo">
+          <img [routerLink]="['/home']" src="/assets/FontLogo.webp" alt="" />
+        </div>
+        <div class="btn-hamburger">
+          <div class="startToday">
+            <button>Start today</button>
+          </div>
+          <div class="hamburger" (click)="sideBar()">
+            <a href="#"><i class="fas fa-bars"></i></a>
+          </div>
         </div>
       </div>
     </div>
