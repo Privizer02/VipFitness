@@ -11,6 +11,7 @@ import { CarouselComponent } from './home/carousel/carousel.component';
 import { FormComponent } from './home/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ParallaxSectionComponent } from './home/parallax-section/parallax-section.component';
+import { StartTodayComponent } from './home/start-today/start-today.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +22,7 @@ import { ParallaxSectionComponent } from './home/parallax-section/parallax-secti
     CarouselComponent,
     FormComponent,
     ParallaxSectionComponent,
+    StartTodayComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],

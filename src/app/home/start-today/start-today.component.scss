@@ -1,0 +1,63 @@
+body {
+    .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      
+        padding: 30px;
+        .card {
+            width: 17%;
+            height: 500px;
+            margin: 20px;
+            border-radius: 5px;
+            border: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            transition: all 300ms;
+         
+            h4 {
+                font-weight: bold;
+                font-size: 24px;
+                padding: 5px;
+                margin-top: 10px;
+            }
+            p {
+                font-weight: 400;
+                font-size: 12px;
+                letter-spacing: -0.5px;
+            }
+            img {
+                width: 100%;
+                height: 250px;
+                filter: brightness(80%);
+                transition: all ease-in 500ms;
+            }
+            button {
+                background-color: black;
+                color: white;
+                border: none;
+                padding: 5px;
+                width: 50%;
+                visibility: hidden;
+               
+            }
+            button:hover {
+                background-color: white;
+                border: 1px solid black;
+                color: black;
+            }
+        }
+        .card:hover {
+            transform: translateY(-20px);
+            button {
+                
+                visibility: visible;
+            }
+            
+            
+        }
+    }
+}
