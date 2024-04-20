@@ -50,6 +50,7 @@ body {
     .sidebar {
       background: black;
       position: fixed;
+      z-index: 1001;
       top: 0;
       right: 0;
       width: 525px;
