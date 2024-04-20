@@ -10,6 +10,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './home/carousel/carousel.component';
 import { FormComponent } from './home/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ParallaxSectionComponent } from './home/parallax-section/parallax-section.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     CarouselComponent,
     FormComponent,
+    ParallaxSectionComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
