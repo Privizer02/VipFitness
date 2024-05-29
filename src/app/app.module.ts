@@ -14,6 +14,7 @@ import { ParallaxSectionComponent } from './home/parallax-section/parallax-secti
 import { StartTodayComponent } from './home/start-today/start-today.component';
 import { TransformationsComponent } from './home/transformations/transformations.component';
 import { ParallaxSectionTwoComponent } from './home/parallax-section-two/parallax-section-two.component';
+import { PartnershipComponent } from './home/partnership/partnership.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ParallaxSectionTwoComponent } from './home/parallax-section-two/paralla
     StartTodayComponent,
     TransformationsComponent,
     ParallaxSectionTwoComponent,
+    PartnershipComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
