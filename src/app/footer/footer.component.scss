@@ -1,0 +1,136 @@
+body {
+    .app {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 150px;
+        padding: 50px;
+        .download-text {
+            color: white;
+            font-size: 26px;
+            font-weight: bold;  
+            
+            .stores {
+                margin-top: 40px;
+            }
+        }
+    }
+    .footer {
+        .copyright {
+            max-width: fit-content;
+            margin-left: auto;
+            margin-right: auto;
+            color: rgb(99, 99, 99);
+            font-size: 12px;
+        }
+        .contactLocation {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+            .location {
+                iframe {
+                    padding:50px;
+                    
+                }
+            }
+            .contact {
+                display: flex;
+                align-items: start;
+                gap: 50px;
+                
+                
+
+                .navigate {
+                    
+                    
+                    display: flex;
+                    flex-direction: column;
+                   align-items: center;
+                    h4 {
+                        font-weight: bold;
+                        margin-bottom: 50px;
+                        
+                        
+                    }
+                    ul {
+                        list-style: none;
+                        margin: 0;
+                        
+                        li {
+                            line-height: 1.1;
+                            font-size: 14px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .hours {
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h4 {
+                        font-weight: bold;
+                        margin-bottom: 50px;
+                        
+                    }
+                    ul {
+                        list-style: none;
+                        
+                        li {
+                            line-height: 1.2;
+                            font-size: 16px;
+                            a {
+                                text-decoration: none;
+                                color: black;
+                            }
+                        }
+                    }
+                }
+                .contact-us{
+                   
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    h4 {
+                        font-weight: bold;
+                        margin-bottom: 50px;
+                        
+                    }   
+                    .adress {
+                        p {
+                            margin: 0;
+                            line-height: 1;
+                        }
+                    }
+                    .email {
+                        margin-top: 20px;
+                        p {
+                            margin: 0;
+                            line-height: 1;
+                        }
+                    }
+                    .media {
+                        margin-top: 50px;
+                        a {
+                            margin-right: 10px;
+                            i {
+                                background-color: black;
+                                color: white;
+                                padding: 5px;
+                                border-radius: 50%;
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
