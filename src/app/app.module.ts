@@ -13,6 +13,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { ParallaxSectionComponent } from './home/parallax-section/parallax-section.component';
 import { StartTodayComponent } from './home/start-today/start-today.component';
 import { TransformationsComponent } from './home/transformations/transformations.component';
+import { ParallaxSectionTwoComponent } from './home/parallax-section-two/parallax-section-two.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { TransformationsComponent } from './home/transformations/transformations
     ParallaxSectionComponent,
     StartTodayComponent,
     TransformationsComponent,
+    ParallaxSectionTwoComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
