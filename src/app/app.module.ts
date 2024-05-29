@@ -12,6 +12,7 @@ import { FormComponent } from './home/form/form.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { ParallaxSectionComponent } from './home/parallax-section/parallax-section.component';
 import { StartTodayComponent } from './home/start-today/start-today.component';
+import { TransformationsComponent } from './home/transformations/transformations.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { StartTodayComponent } from './home/start-today/start-today.component';
     FormComponent,
     ParallaxSectionComponent,
     StartTodayComponent,
+    TransformationsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
