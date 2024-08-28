@@ -22,6 +22,7 @@ import { GymComponent } from './home/nav-components/gym/gym.component';
 import { OtherServicesComponent } from './home/nav-components/other-services/other-services.component';
 import { SpaceRentalsComponent } from './home/nav-components/space-rentals/space-rentals.component';
 import { BookOnlineComponent } from './home/nav-components/book-online/book-online.component';
+import { TransformationComponent } from './home/nav-components/transformation/transformation.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +44,7 @@ import { BookOnlineComponent } from './home/nav-components/book-online/book-onli
     OtherServicesComponent,
     SpaceRentalsComponent,
     BookOnlineComponent,
+    TransformationComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, NgbModule, ReactiveFormsModule],
   providers: [],
